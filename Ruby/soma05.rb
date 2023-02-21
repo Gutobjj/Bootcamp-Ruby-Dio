@@ -7,7 +7,9 @@ print "Insira outro numero inteiro: "
 num2 = gets.chomp.to_i
 
 #soma
-soma = num1 * num2
+soma = num1 + num2
 
 #resultado
 puts"A soma dos seus numeros deu #{soma}!"
+
+#list=[ "#{num1}" ]
